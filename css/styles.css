@@ -1,0 +1,129 @@
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather',serif;/*fallback*/
+    background-color:#f3f5fc;
+  }
+
+  #input{
+    
+    border: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 150%;
+    background-color: #f3f5fc;
+}
+
+#output{    
+  display: flex;
+  justify-content: center;
+  /* box-shadow: 0px 24px 32px -8px rgba(0,0,0,0.8); */
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  background-color: #f3f5fc;
+}
+
+#input::placeholder{
+  color: #0a3871;
+  font-size: 18px;
+}
+
+#output::placeholder{
+  color: #0a3871;
+  font-size: 18px;
+}
+
+#logo{  
+  position: absolute;
+  left: 4%;
+  right: 37.43%;
+  top: 1%;
+  bottom: 0%;  
+  width: 2%
+}
+
+.container{
+  padding:7%;
+  border-bottom: 0%;
+  padding-bottom: 2%;
+}
+
+.mi-btn{
+  width:90%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  border-radius: 24px;
+  justify-content: center;
+  padding: 2%;
+  gap: 8px;  
+  font-family: "Inter";
+  font-size: 18px;;
+  line-height: 19px;
+}
+
+.btn-encriptar{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: #0A3871;
+  color: white;
+  
+
+}
+
+.btn-desencriptar{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: #f3f5fc;
+  color: #0A3871;
+  
+
+}
+
+.btn-copiar{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: white;
+  color: #0A3871;
+  
+  
+}
+
+#encriptar{
+  text-align: center;
+}
+
+.relleno{
+  color:#f3f5fc;
+}
+
+.texto{
+  border: 0px;
+  background-color:#f3f5fc ;
+}
+
+
+.advertencia{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #495057;
+  text-align: left;
+  padding-bottom:10px;;
+}
+
+@media (max-width: 57.5em){
+
+}

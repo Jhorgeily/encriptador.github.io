@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Encriptador</title>
+        <script src="js/encriptador.js"></script>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/boot-strap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <section class="home">            
+            <div class="container">
+                <img src="img/logo.png"  id="logo" alt="">
+                <div class="row">
+                    <div class="col col-md">
+                        <textarea class="form-control texto" id="input" name="input" rows="15" cols="30" placeholder="Ingrese texto aqui"></textarea><br>                    
+                    </div>                    
+                    <div class="col col-md">
+                        <textarea class="form-control texto" id="output" name="output" rows="15" cols="30" placeholder="Aquí se mostrará el texto encriptado"></textarea>                            
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-md">
+                        <div class="row">
+                            <div class="row">
+                                <div class="col col-md">
+                                    <div class="advertencia">⚠ Sólo letras minúsculas y sin acentos</div>
+                                </div>
+                                <div class="col col-md"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-md">
+                                <input class="btn btn-encriptar mi-btn " id="encriptar" value="Encriptar" >                              
+                            </div>
+                            <div class="col col-md"> 
+                                <input class="btn btn-desencriptar mi-btn" id="desencriptar" value="Desencriptar"> 
+                            </div>                            
+                        </div>                        
+                    </div>                    
+                    <div class="col col-md">  
+                        <div class="row">
+                            <div class="row">
+                                <div class="col col-md">
+                                    <div class="relleno">-</div>
+                                </div>
+                                <div class="col col-md"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input class="btn btn-copiar mi-btn" id="copiar" value="Copiar a portapapeles">                                    
+                        </div>                               
+                    </div>   
+                </div>
+                
+            </div>        
+            <div class="alert alert-danger" role="alert" id="errores">                
+            </div>
+
+            
+        </section>
+    </body>
+</html>
+
